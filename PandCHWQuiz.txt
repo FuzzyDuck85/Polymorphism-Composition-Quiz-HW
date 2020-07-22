@@ -1,0 +1,36 @@
+Polymorphism & Composition Homework - Quiz
+
+Polymorphism
+
+1 - What does the word 'polymorphism' mean?
+Polymorphism is ability to treat an object as more than one type, eg. A person can be a partner, parent, child, sibling, cousin, employee, a supporter, a volunteer etc.
+
+
+2 - What does it mean when we apply polymorphism to OO design? Give a simple Java example.
+Create a single ArrayList for various similar objects and be able to add different things of a similar type. EG. an ArrayList of objects that can connect to a Network would be called IConnect and this items within would be able to connect to said network (Printers, Computers, Servers).
+
+
+3 - What can we use to implement polymorphism in Java?
+We can use abstract classes and interface classes
+
+
+4 - How many 'forms' can an object take when using polymorphism?
+It can take many forms
+
+
+5 - Give an example of when you could use polymorphism.
+Polymorphism may be used to reduce DRY code, by replacing separate instances of similar classes with a super class that can call on the elements of the similar classes within.
+
+
+Composition
+
+6 - What do we mean by 'composition' in reference to object-oriented programming?
+
+
+7 - When would you use composition? Provide a simple example in Java.
+
+
+8 - What is/are the advantage(s) of using composition?
+
+
+9 - When an object is destroyed, what happens to all the objects it is composed of?
