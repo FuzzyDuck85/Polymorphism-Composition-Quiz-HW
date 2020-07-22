@@ -25,12 +25,17 @@ Polymorphism may be used to reduce DRY code, by replacing separate instances of 
 Composition
 
 6 - What do we mean by 'composition' in reference to object-oriented programming?
-
+Composition is associating, or allocating objects that a master/original object owns/is composed of.
+Like a car HAS an engine and HAS a gear box.
 
 7 - When would you use composition? Provide a simple example in Java.
+When you have many various devices, like a Computer, Radio, Speaker, Television but only want to allow the computer to output data using a device such as a printer, monitor or speaker. While the TV, Radio do not.
+Creating a behaviour like IOutput will give only the desired objects the behaviours stored within.
 
 
 8 - What is/are the advantage(s) of using composition?
-
+Composition allows a class to use behaviour from a group of other classes, and makes it possible for that behaviour to change at runtime.
+This is an advantage over Inheritance as you can only inherit from one thing and one thing only.
 
 9 - When an object is destroyed, what happens to all the objects it is composed of?
+The rest of the objects that the original object owns are destroyed too.
